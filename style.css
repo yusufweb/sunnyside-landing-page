@@ -9,7 +9,7 @@
 
 html {
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Barlow', sans-serif;
     line-height: 1.2;
 }
 
@@ -24,6 +24,10 @@ a {
 
 h1, h2 {
     margin-bottom: 1em;
+}
+
+h1, h2, h3 {
+    font-family: 'Fraunces', serif;
 }
 
 img {
@@ -53,7 +57,7 @@ nav {
 }
 
 nav ul.nav-list {
-    width: 82%;
+    width: 80%;
     position: absolute;
     background-color: hsl(0, 0%, 100%);
     top: 120px;
@@ -81,7 +85,6 @@ nav ul.nav-list li {
 
 nav ul.nav-list a {
     font-size: 1rem;
-    font-weight: 600;
     color: hsl(232, 10%, 55%);
 }
 
@@ -95,6 +98,7 @@ nav ul.nav-list.active {
     border-radius: 100px;
     color: hsl(212, 27%, 19%)!important;
     text-transform: uppercase;
+    font-family: 'fraunces', serif;
 }
 
 nav ul.nav-list li:last-child {
@@ -151,8 +155,8 @@ section#about-section .about-item img {
 .learn-more-btn {
     text-transform: uppercase;
     color: hsl(212, 27%, 19%);
-    font-weight: 700;
     position: relative;
+    font-family: 'Fraunces', serif;
 }
 
 .learn-more-btn::after {
@@ -297,7 +301,6 @@ footer a {
 @media screen and (max-width: 325px) {
     header .showcase-text {
         font-size: 1.3rem;
-        font-weight: 800;
         margin-bottom: 4rem;
     }
 }
@@ -306,7 +309,6 @@ footer a {
 @media screen and (min-width: 325px) {
     header .showcase-text {
         font-size: 1.7rem;
-        font-weight: 800;
         line-height: 1.6;
     }
 }
@@ -580,7 +582,7 @@ footer a {
 
     .about-text-a p, 
     .about-text-b p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .g-design-text,
