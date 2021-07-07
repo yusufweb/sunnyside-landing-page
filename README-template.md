@@ -81,7 +81,7 @@ I will continue to focus more on responsive web development using media queries 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/frontendgeek)
-- Twitter - [@yourusername](https://www.twitter.com/frontEnd_guru)
+- Frontend Mentor - [@frontendgeek](https://www.frontendmentor.io/profile/frontendgeek)
+- Twitter - [@frontEnd_guru](https://www.twitter.com/frontEnd_guru)
 
 
