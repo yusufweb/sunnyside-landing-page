@@ -38,9 +38,9 @@ Users should be able to:
 ## My process
 
 - Wireframe of the design
-- Next started with markup that is the structure of the page.
-- Css for the page
-
+- Next, started with markup that is the structure of the page.
+- styling the for markup
+- finally interactive with javaScript
 
 ### Built with
 
@@ -70,11 +70,6 @@ header {
   font-size: 1rem;
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 I will continue to focus more on responsive web development using media queries and responsive font size using em and rem. I will like to switch from flexbox to grid for my layout designing because i found out during the course of this project that gird layout would have save me some time if i had implement this project using grid and not flex box. But flexbox this the work though.
