@@ -341,12 +341,8 @@ footer a {
     }
 }
 
-/* media query for tablets */
-@media (min-width: 640px) and (max-width: 850px) {
-    .desktop-img {
-        display: none;
-    }
-
+/* general media query for both medium scree and large screen */
+@media (min-width: 640px) {
     header {
         background-image: url(images/desktop/image-header.jpg);
         height: 630px;
@@ -373,7 +369,6 @@ footer a {
 
     nav ul.nav-list a {
         color: hsl(0, 0%, 100%);
-        font-size: 0.9rem;
     }
 
     nav ul.nav-list::before {
@@ -381,7 +376,6 @@ footer a {
     }
 
     .contact {
-        padding: 1em 1.3em;
         background-color: hsl(0, 0%, 100%);
         color: hsl(212, 27%, 19%)!important;
     }
@@ -438,10 +432,49 @@ footer a {
     .about-text-a, 
     .about-text-b {
         text-align: left;
-        padding: 0 2em;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .testimonial-flex {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .testimonial-item {
+        width: 32%;
+    }
+
+    section#photo-gallery .photos {
+        width: 25%;
+    }
+}
+
+/* media query for tablets */
+@media (min-width: 640px) and (max-width: 850px) {
+    .desktop-img {
+        display: none;
+    }
+
+    nav ul.nav-list a {
+        font-size: 0.9rem;
+    }
+
+    nav ul.nav-list::before {
+        display: none;
+    }
+
+    .contact {
+        padding: 1em 1.3em;
+    }
+
+    .about-text-a, 
+    .about-text-b {
+        padding: 0 2em;
     }
 
     .about-text-a {
@@ -458,20 +491,8 @@ footer a {
         font-size: 0.7rem;
     }
 
-    .testimonial-flex {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     .testimonial-text p {
         font-size: 0.8rem;
-    }
-
-    .testimonial-item {
-        width: 32%;
     }
 
     section#testimonial h2 {
@@ -486,13 +507,9 @@ footer a {
         font-size: 0.8rem;
     }
 
-    section#photo-gallery .photos {
-        width: 25%;
-    }
-
 }
 
-/* media query to hide image on large device 
+/* 
 * And large screen media query 
 */
 @media (min-width: 851px) and (max-width: 2560px) {
@@ -500,100 +517,9 @@ footer a {
         display: none;
     }
 
-    header {
-        background-image: url(images/desktop/image-header.jpg);
-        height: 630px;
-        background-position: center center;
-    }
-
-    .hamburger-menu {
-        display: none;
-    }
-
-    nav ul.nav-list {
-        width: initial;
-        position: initial;
-        background-color: transparent;
-        top: initial;
-        left: initial;
-        margin-left: initial;
-        padding: initial;
-        text-align: center;
-        display: flex!important;
-        justify-content: center;
-        align-items: center;
-    }
-
-    nav ul.nav-list a {
-        color: hsl(0, 0%, 100%);
-    }
-
-    nav ul.nav-list::before {
-        display: none;
-    }
-
-    .contact {
-        background-color: hsl(0, 0%, 100%);
-        color: hsl(212, 27%, 19%)!important;
-    }
-
-    nav ul.nav-list li:last-child {
-        margin-top: 0;
-    }
-
-    .contact:hover {
-        background-color: hsl(192, 94%, 43%);
-        color: hsl(0, 0%, 100%)!important;
-    }
-
-    header .showcase-text {
-        font-size: 2rem;
-        font-weight: 800;
-        margin-bottom: 4rem;
-    }
-
-    /* about section */
-    .about-flex {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    section#about-section .about-item {
-        width: 50%;
-    }
-
-    section#about-section .about-item:nth-child(1) {
-        order: 2;
-    }
-
-    section#about-section .about-item:nth-child(2) {
-        order: 1;
-    }
-
-    section#about-section .about-item:nth-child(3) {
-        order: 3;
-    }
-
-    section#about-section .about-item:nth-child(4) {
-        order: 4;
-    }
-
-    section#about-section .about-item:nth-child(5) {
-        order: 5;
-    }
-
-    section#about-section .about-item:nth-child(6) {
-        order: 6;
-    }
-
     .about-text-a, 
     .about-text-b {
-        text-align: left;
         padding: 0 5em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .about-text-a {
@@ -628,24 +554,7 @@ footer a {
         padding: 5em 0;
     }
 
-    .testimonial-flex {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .testimonial-item {
-        width: 32%;
-    }
-
     section#testimonial h2 {
         margin-bottom: 1em;
-    }
-
-    /* section gallery */
-    section#photo-gallery .photos {
-        width: 25%;
     }
 }
