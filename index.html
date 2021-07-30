@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,11 +75,18 @@
 <!-- About section -->
 <section id="about-section">
   <div class="about-flex">
-    <div class="about-item about-img-1">
+    <div class="about-item about-img-1" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    >
       <img src="images/mobile/image-transform.jpg" alt="about image" class="mobile-img">
       <img src="images/desktop/image-transform.jpg" alt="about image" class="desktop-img">
     </div>
-    <div class="about-item about-text-a">
+    <div class="about-item about-text-a" data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
       <div class="about-text-content">
           <h2>Transform your brand</h2>
           <p>We are a full-service creative agency specializing in helping brands grow fast.
@@ -87,11 +95,17 @@
           <a href="#learnMore" role="link" class="learn-more-btn learn-more-btn-1">Learn more</a>
       </div>
     </div>
-    <div class="about-item about-img-2">
+    <div class="about-item about-img-2" data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
       <img src="images/mobile/image-stand-out.jpg" alt="about-img" class="mobile-img">
       <img src="images/desktop/image-stand-out.jpg" alt="about-img" class="desktop-img">
     </div>
-    <div class="about-item about-text-b">
+    <div class="about-item about-text-b" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
       <div class="about-text-content">
         <h2>Stand out to the right audience</h2>
         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build
@@ -100,7 +114,10 @@
         <a href="#learnMore" role="link" class="learn-more-btn learn-more-btn-2">Learn more</a>
       </div>
     </div>
-    <div class="about-item g-design">
+    <div class="about-item g-design" data-aos="flip-right"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
       <img src="images/mobile/image-graphic-design.jpg" alt="Graphics design" class="mobile-img">
       <img src="images/desktop/image-graphic-design.jpg" alt="graphic design image" class="desktop-img">
       <div class="g-design-text">
@@ -111,7 +128,10 @@
         </p>
       </div>
     </div>
-    <div class="about-item photography">
+    <div class="about-item photography" data-aos="flip-left"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
       <img src="images/mobile/image-photography.jpg" alt="photography" class="mobile-img">
       <img src="images/desktop/image-photography.jpg" alt="photography image" class="desktop-img">
       <div class="photography-text">
@@ -129,7 +149,10 @@
 <section id="testimonial">
   <h2>Client testimonials</h2>
   <div class="testimonial-flex">
-    <div class="testimonial-item">
+    <div class="testimonial-item" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
       <div class="testimonial-img">
         <img src="images/image-emily.jpg" alt="testimonial">
       </div>
@@ -143,7 +166,10 @@
         <p>Marketing Director</p>
       </div>
     </div>
-    <div class="testimonial-item">
+    <div class="testimonial-item" data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
       <div class="testimonial-img">
         <img src="images/image-thomas.jpg" alt="testimonial">
       </div>
@@ -158,7 +184,10 @@
         <p>Chief Operating Officer</p>
       </div>
     </div>
-    <div class="testimonial-item">
+    <div class="testimonial-item" data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000">
       <div class="testimonial-img">
         <img src="images/image-jennie.jpg" alt="testimonial">
       </div>
@@ -242,6 +271,10 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/app.js"></script>
 </body>
